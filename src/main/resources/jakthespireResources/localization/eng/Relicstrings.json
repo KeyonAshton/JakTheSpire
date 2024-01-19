@@ -1,0 +1,72 @@
+{
+  "${ModID}:FloatingGear": {
+    "NAME": "Floating Gear",
+    "FLAVOR": "They won't miss that one tiny gear.",
+    "DESCRIPTIONS": [
+      "Does nothing."
+    ]
+  },
+  "${ModID}:MarHeart": {
+    "NAME": "Heart of Mar",
+    "FLAVOR": "An ancient artifact, hidden inside an old statue.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b3 #yRegen."
+    ]
+  },
+  "${ModID}:MarSeal": {
+    "NAME": "Seal of Mar",
+    "FLAVOR": "Allows passage through ancient tunnels.",
+    "DESCRIPTIONS": [
+      "Does nothing."
+    ]
+  },
+  "${ModID}:MarSealPiece": {
+    "NAME": "Seal of Mar Piece",
+    "FLAVOR": "You must find all three pieces of the seal to open Mar's gate into the canyon.",
+    "DESCRIPTIONS": [
+      "Does nothing."
+    ]
+  },
+  "${ModID}:PowerCell": {
+    "NAME": "Power Cell",
+    "FLAVOR": "The most important Precursor artifact you can find.",
+    "DESCRIPTIONS": [
+      "Does nothing."
+    ]
+  },
+  "${ModID}:PrecursorEgg": {
+    "NAME": "Precursor Orbs",
+    "FLAVOR": "These Precursor orbs are worth some gold here.",
+    "DESCRIPTIONS": [
+      "Right click at a shop to sell all orbs for #b5 gold each. NL Find #b1 orb after each fight. NL Every #b10 orbs increases the value by #b1."
+    ]
+  },
+  "${ModID}:ReflectiveLens": {
+    "NAME": "Reflective Lens",
+    "FLAVOR": "Something's cooking. Hmm, kinda smells like...",
+    "DESCRIPTIONS": [
+      "Reflects the first unblocked damage taken each combat."
+    ]
+  },
+  "${ModID}:MarRubyKey": {
+    "NAME": "Mar's Ruby Key",
+    "FLAVOR": "Used to open a secret door in the Underport.",
+    "DESCRIPTIONS": [
+      "Does nothing."
+    ]
+  },
+  "${ModID}:TimeMap": {
+  "NAME": "Time Map",
+    "FLAVOR": "An artifact with many coordinates put in.",
+    "DESCRIPTIONS": [
+      "You may ignore paths when choosing the next room to travel to #b2 times. NL Resets to #b2 charges at the start of each act."
+    ]
+  },
+  "${ModID}:VibratingCrystal": {
+    "NAME": "Vibrating Crystal",
+    "FLAVOR": "This baby will put a smile on your face!",
+    "DESCRIPTIONS": [
+      "The first attack each turn deals additional damage based on the number of attacks played in the previous turn NL Max additional damage is Floor / 2."
+    ]
+  }
+}

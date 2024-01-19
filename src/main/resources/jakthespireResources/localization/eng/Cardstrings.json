@@ -1,0 +1,267 @@
+{
+  "${ModID}:ExampleTwoAmountPowerCard": {
+    "NAME": "Two Amount Power",
+    "DESCRIPTION": "At the start of your turn, gain !M! Strength and !${ModID}:m2! Dexterity."
+  },
+  "${ModID}:SelectCardsPlusCardMods": {
+    "NAME": "Cool Card Stuff",
+    "DESCRIPTION": "Choose from 1 of 3 cost 0 cards from any class. NL Add it into your hand. NL It gains Ethereal and Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand with Ethereal and Exhaust."
+    ]
+  },
+  "${ModID}:EasyXCostDemo": {
+    "NAME": "Easy X Cost",
+    "DESCRIPTION": "Deal !D! damage X times. NL Gain X Strength. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X+1 times. NL Gain X+1 Strength. NL Exhaust."
+  },
+  "${ModID}:EasyModalChoiceDemo": {
+    "NAME": "Easy Modal Choice",
+    "DESCRIPTION": "Choose one: Draw !M! cards or gain !${ModID}:m2! Strength.",
+    "EXTENDED_DESCRIPTION": [
+      "Draw",
+      "Draw ",
+      " cards.",
+      "Strength",
+      "Gain ",
+      " Strength."
+    ]
+  },
+  "${ModID}:DrawAndShiv": {
+    "NAME": "Draw and Shiv",
+    "DESCRIPTION": "Draw 1 card. NL Add 1 *Shiv into your hand."
+  },
+  "${ModID}:TwoTypesOfDamage": {
+    "NAME": "Two Damage Values",
+    "DESCRIPTION": "Deal !D! damage. NL If you're Vulnerable, deal !${ModID}:sd! damage instead."
+  },
+  "${ModID}:StartupBlockCard": {
+    "NAME": "Startup And AOE",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Startup: Gain !M! Block."
+  },
+  "${ModID}:MultiCardPreviewAndDrawCallback": {
+    "NAME": "Previews and Callbacks",
+    "DESCRIPTION": "Shuffle *Smite and *Safety into your draw pile. NL Draw 1 card. NL If it's Colorless, deal !D! damage to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Shuffle *Smite and *Safety into your draw pile. NL Draw 1 card. NL If it's Colorless, deal !D! damage to ALL enemies."
+  },
+  "${ModID}:Null": {
+    "NAME": "------------------------------------------------------------- Starter Cards"
+  },
+  "${ModID}:Jump": {
+    "NAME": "Jump",
+    "DESCRIPTION": "${ModID}:Combo NL Gain !B! *Block",
+    "EXTENDED_DESCRIPTION": [
+      "Double Jump",
+      " NL Gain an additional !M! *Block.",
+      "Rolling Jump",
+      " NL Deal !D! to a random enemy.",
+      " NL Play *Uppercut on a random enemy."
+    ]
+  },
+  "${ModID}:Punch": {
+    "NAME": "Punch",
+    "DESCRIPTION": "${ModID}:Combo NL Deal !D! damage.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Play *Ground *Slam",
+      " NL Play *Uppercut"
+    ]
+  },
+  "${ModID}:Roll": {
+    "NAME": "Roll",
+    "DESCRIPTION": "${ModID}:Combo NL Gain !B! *Block."
+  },
+  "${ModID}:SpinKick": {
+    "NAME": "Spin Kick",
+    "DESCRIPTION": "Deal !D! damage to !M! random enemies."
+  },
+  "${ModID}:GreenEcoCard": {
+    "NAME": "[#00ff00]Green [#00ff00]Eco",
+    "DESCRIPTION": "*Eco NL Supplies !M! little [#00ff00]Green [#00ff00]Eco. NL 3 Upgrades Left",
+    "EXTENDED_DESCRIPTION": [
+      "[#00ff00]Green [#00ff00]Eco",
+      "*Eco NL Supplies !M! little [#00ff00]Green [#00ff00]Eco. NL 2 Upgrades Left",
+      "A Big [#00ff00]Green [#00ff00]Eco",
+      "*Eco NL Supplies a big [#00ff00]Green [#00ff00]Eco. NL 1 Upgrades Left",
+      "[#00ff00]Green [#00ff00]Eco Vent",
+      "${ModID}:Eco_Vent. NL Stand atop a [#00ff00]Green [#00ff00]Eco vent."
+    ]
+  },
+  "${ModID}:Null1": {
+    "NAME": "------------------------------------------------------------- Eco Base Cards"
+  },
+  "${ModID}:BlueEcoCard": {
+    "NAME": "[#0000ff]Blue [#0000ff]Eco",
+    "DESCRIPTION": "*Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco. NL 2 Upgrades Left",
+    "EXTENDED_DESCRIPTION": [
+      "[#0000ff]Blue [#ff0000]Eco",
+      "*Eco NL Supplies !M! [#0000ff]Blue [#0000ff]Eco. NL 1 Upgrade Left",
+      "[#0000ff]Blue [#0000ff]Eco Vent",
+      "${modID}:Eco_Vent. NL Stand atop a [#0000ff]Blue [#0000ff]Eco vent"
+    ]
+  },
+  "${ModID}:RedEcoCard": {
+    "NAME": "[#ff0000]Red [#ff0000]Eco",
+    "DESCRIPTION": "*Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco. NL 2 Upgrades Left",
+    "EXTENDED_DESCRIPTION": [
+      "[#ff0000]Red [#ff0000]Eco",
+      "*Eco NL Supplies !M! [#ff0000]Red [#ff0000]Eco. NL 1 Upgrade Left",
+      "[#ff0000]Red [#ff0000]Eco Vent",
+      "${modID}:Eco_Vent. NL Stand atop a [#ff0000]Red [#ff0000]Eco vent."
+    ]
+  },
+  "${ModID}:YellowEcoCard": {
+    "NAME": "[#ffff00]Yellow [#ffff00]Eco",
+    "DESCRIPTION": "*Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco. NL 2 Upgrades Left",
+    "EXTENDED_DESCRIPTION": [
+      "[#ffff00]Yellow [#ffff00]Eco",
+      "*Eco NL Supplies !M! [#ffff00]Yellow [#ffff00]Eco. NL 1 Upgrade Left",
+      "[#ffff00]Yellow [#ffff00]Eco Vent",
+      "${modID}:Eco_Vent. NL Stand atop a [#ffff00]Yellow [#ffff00]Eco vent."
+    ]
+  },
+  "${ModID}:Null2": {
+    "NAME": "------------------------------------------------------------- Morph Gun Cards"
+  },
+  "${ModID}:Fire": {
+    "NAME": "Fire",
+    "DESCRIPTION": "Acts differently based on ${ModID}:Morph_Gun played.",
+    "EXTENDED_DESCRIPTION": [
+      "Deal !D! damage to ALL enemies.",
+      "${ModID}:Combo NL Deal !D! damage to an enemy.",
+      "Deal !D! damage to an enemy, and again to a random enemy.",
+      "Deal !D! damage to !M! random enemies.",
+      "Deal !D! damage and apply *Weak to !M! random enemies.",
+      "Deal !D! damage to an enemy.",
+      " NL Play *Wastelander *Punch on targeted enemy !M! times.",
+      " NL Play *Wastelander *Spin on !M! random enemies."
+    ]
+  },
+  "${ModID}:FirePreview": {
+    "NAME": "Fire",
+    "DESCRIPTION": " ",
+    "EXTENDED_DESCRIPTION": [
+      "*Scatter *Gun NL Deal !D! damage to ALL enemies.",
+      "*Wave *Concussor NL Deal !D! damage to ALL enemies.",
+      "*Blaster NL ${ModID}:Combo NL Deal !D! damage to an enemy.",
+      "*Beam *Reflexor NL Deal !D! damage to an enemy, and again to a random enemy.",
+      "*Vulcan *Fury NL Deal !D! damage to 3 random enemies.",
+      "*Arc *Wielder NL Deal !D! damage and applies *Weak to 3 random enemies.",
+      "*Peace *Maker NL Deal !D! damage to an enemy.",
+      "*Super *Nova NL Deal !D! damage to ALL enemies."
+    ]
+  },
+  "${ModID}:WastelanderPunch": {
+    "NAME": "Wastelander Punch",
+    "DESCRIPTION": "${ModID}:Combo NL Yellow gun morph NL *Punch, *Fire NL Deals !D! to the shot enemy."
+  },
+  "${ModID}:WastelanderSpin": {
+    "NAME": "Wastelander Spin",
+    "DESCRIPTION": "${ModID}:Combo NL Yellow gun morph NL *Jump, *Spin *Kick, *Fire NL Deals !D! to !M! random enemies."
+  },
+
+  "${ModID}:BlueMorph": {
+    "NAME": "Vulcan Fury",
+    "DESCRIPTION": "${ModID}:Morph_Gun NL Supplies !M! [#0000ff]Blue ammo NL Fires a volley of shots",
+    "EXTENDED_DESCRIPTION": [
+      " NL ",
+      "Arc Wielder",
+      " that apply *Weak NL ",
+      " upgrades left",
+      "*Innate"
+    ]
+  },
+  "${ModID}:PurpleMorph": {
+    "NAME": "Peace Maker",
+    "DESCRIPTION": "${ModID}:Morph_Gun NL Supplies !M! [#500064]Purple ammo NL Fires a high power ",
+    "EXTENDED_DESCRIPTION": [
+      "shot. NL ",
+      "Super Nova",
+      "AoE blast. NL ",
+      " upgrades left",
+      "*Innate"
+    ]
+  },
+  "${ModID}:RedMorph": {
+    "NAME": "Scatter Gun",
+    "DESCRIPTION": "${ModID}:Morph_Gun NL Supplies !M! [#ff0000]Red ammo NL Fires a",
+    "EXTENDED_DESCRIPTION": [
+      "n AoE blast. NL ",
+      "Wave Concussor",
+      " big AoE blast. NL ",
+      " upgrades left",
+      "*Innate"
+    ]
+  },
+  "${ModID}:YellowMorph": {
+    "NAME": "Blaster",
+    "DESCRIPTION": "${ModID}:Morph_Gun NL Supplies !M! [#ffff00]Yellow ammo NL Fires a ",
+    "EXTENDED_DESCRIPTION": [
+      "single shot. NL ",
+      "Beam Reflexor",
+      "bouncing shot. NL ",
+      " upgrades left",
+      "*Innate"
+    ]
+  },
+  "${ModID}:Null3": {
+    "NAME": "------------------------------------------------------------- Combo Cards"
+  },
+  "${ModID}:DarkEcoBox": {
+    "NAME": "Dark Eco Box",
+    "DESCRIPTION": "${ModID}:Combo NL Deal !D! damage. NL Increased by !M! for each *Dark *Eco *Box in combo.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      ")"
+    ]
+  },
+  "${ModID}:DarkEcoCrate": {
+    "NAME": "Dark Eco Box",
+    "DESCRIPTION": "${ModID}:Combo NL Deal !D! damage."
+  },
+  "${ModID}:GroundSlam": {
+    "NAME": "Ground Slam",
+    "DESCRIPTION": "${ModID}:Combo NL Deal !D! damage."
+  },
+  "${ModID}:PlasmiteBomb": {
+    "NAME": "Plasmite Bomb",
+    "DESCRIPTION": "${ModID}:Combo NL Deal !D! damage to ALL enemies. NL Increased by !M! for each *Plasmite *Bomb in combo.",
+    "EXTENDED_DESCRIPTION": [
+      "NL (",
+      ")"
+    ]
+  },
+  "${ModID}:UpperCut": {
+    "NAME": "Uppercut",
+    "DESCRIPTION": "${ModID}:Combo NL Deal !D! damage."
+  },
+  "${ModID}:Null4": {
+    "NAME": "------------------------------------------------------------- Eco Controlled Cards"
+  },
+  "${ModID}:EcoDraw": {
+    "NAME": "Eco Draw",
+    "DESCRIPTION": "Draw X",
+    "EXTENDED_DESCRIPTION": [
+      " specific cards NL X is half of the [#0000ff]Blue [#0000ff]Eco you have.",
+      "+1"
+    ]
+  },
+  "${ModID}:EcoSpeed": {
+    "NAME": "Speed of Eco",
+    "DESCRIPTION": "Draw a card for each [#0000ff]Blue [#0000ff]Eco you have."
+  },
+  "${ModID}:EcoStrength": {
+    "NAME": "Strength of Eco",
+    "DESCRIPTION": "Gain X temporary *Strength where X is the amount of [#ff0000]Red [#ff0000]Eco you have."
+  },
+  "${ModID}:Fireball": {
+    "NAME": "Fireball",
+    "DESCRIPTION": "Deal !D! damage NL [#ffff00]Yellow [#ffff00]Eco affects this card 3 times."
+  },
+  "${ModID}:PrecursorGunCard": {
+    "NAME": "Precursor Gun",
+    "DESCRIPTION": "Requires ",
+    "EXTENDED_DESCRIPTION": [
+      " [E] to play. NL Deal !D! damage. NL Deals !M! extra damage per [E] above "
+    ]
+  }
+}
